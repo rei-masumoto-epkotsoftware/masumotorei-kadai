@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS課題</title>
+</head>
+<body>
+	<p>配列変数の各要素の数値を合計する関数arrSumを用いて合計値を表示</p>
+	<script>
+		var result=0;
+		function arrSum(array){
+			for(var i=0;i<array.length;i++){
+			result+=array[i];
+			}
+			alert("各要素:"+array+"\n"+"合計値:"+result);
+		}
+
+		arrSum([20,30,5]);
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+  h2.monaliza{
+  color:blue;
+  }
+
+  h2.course{
+  color:green;
+  font-size:30px;
+  }
+
+  span.del{
+  text-decoration:line-through;
+  }
+
+  div.fifa{
+  background-color:steelblue;
+  color:white;
+  width:500px;
+  }
+
+  #contents{
+  width:500px;
+  }
+
+  #main{
+  background-color:gainsboro;
+  padding:10px;
+  border:solid 2px dimgray;
+  }
+
+  #title{
+  background-color:thistle;
+  padding:20px 10px;
+  border:double 4px dimgray;
+  }
+
+  #link{
+  width:500px;
+  height:250px;
+  background-image:url(../img/bg.jpg);
+  }
+ 
+
+  a{
+  display:inline-block;
+  font-family:MS UI Gothic;
+  }
+
+  a:hover{
+  transform:rotate(15deg);
+  }
+
+  table.table1{
+  border:solid 2px black;
+  width:300px;
+  text-align:center;
+  }
+
+  td{
+  border:solid 1px black;
+  }
+
+
+  th{
+  border:solid 1px black;
+  background-color:steelblue;
+  color:white;
+  }
+
+  table.table2{
+  border:solid 1px black;
+  border-collapse: collapse;
+  }
+

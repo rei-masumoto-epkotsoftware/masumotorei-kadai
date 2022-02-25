@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>jquery課題</title>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/jquery.ui.datepicker-ja.js"></script>
+</head>
+<body>
+  <div>日付を入力してください:
+    <input type="text" class="calendar">
+  </div>
+
+  <script>
+    $(function(){
+      $(".calendar").datepicker();
+    });
+  </script>
+
+</body>
+</html>

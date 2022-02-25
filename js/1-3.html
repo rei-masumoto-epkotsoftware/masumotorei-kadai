@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS課題</title>
+</head>
+<body>
+  <p>消費税を計算する関数taxを用いて金額を表示</p>
+  <script>
+    function tax(price){
+      var tax=price*1.08;
+      tax=Math.round(tax);
+      alert("税別:"+price+"円\n"+"税込:"+tax+"円");
+      return tax;
+    }
+
+    tax(600);
+
+  </script>
+</body>
+</html>
